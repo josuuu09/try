@@ -1,0 +1,155 @@
+* {box-sizing: border-box}
+body{
+    background-color: antiquewhite;
+}
+
+
+.headd{
+    margin-left: 140px ;
+    background-color: powderblue;
+    height: 70px;
+    width: 85%;
+    padding-left: 20px;
+    padding-top: 5px;
+    
+    
+}
+.info{
+    margin-left: 140px ;
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 85%;
+    padding-left: 20px;
+    
+    padding: 16px;
+
+}
+.bf{
+    font-size: 20px;
+}
+
+label{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input{
+    height: 40px;
+    width: 300px;
+    
+    
+    
+}
+.laman{
+    display: inline-block;
+    padding-left: 65px;
+    padding-bottom: 50px;
+}
+#gender{
+    height: 40px;
+    width: 300px;
+    
+}
+#nationality{
+    height: 40px;
+    width: 300px;
+    
+}
+#status{
+    height: 40px;
+    width: 300px;
+    
+}
+#Btype{
+    height: 40px;
+    width: 300px;
+    
+}
+#ft{
+    height: 40px;
+    width: 130px;
+    
+}
+#kg{
+    height: 40px;
+    width: 130px;
+    
+}
+.lamanH{
+    display: inline-block;
+    padding-left: 37px;
+    padding-bottom: 30px;
+}
+#RV{
+    height: 40px;
+    width: 300px;
+    
+}
+#dis{
+    height: 40px;
+    width: 425px;
+    
+}
+#oc{
+    height: 40px;
+    width: 425px;
+    
+}
+#ai{
+    height: 40px;
+    width: 420px;
+    
+}
+#hm{
+    height: 40px;
+    width: 425px;
+    
+}
+#st{
+    height: 40px;
+    width: 420px;
+    
+}
+#br{
+    height: 40px;
+    width: 425px;
+    
+}
+#muni{
+    height: 40px;
+    width: 670px;
+    
+}
+#prov{
+    height: 40px;
+    width: 670px;
+    
+}
+#hea
+{
+    height: 40px;
+    width: 1410px;
+    
+}
+.btn {
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: #3e8e41;
+    color: white;
+    border-radius: 5px;
+  }
+  .buton{
+    margin-left: 690px;
+  }
+  
+

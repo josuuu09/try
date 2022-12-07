@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    
+    
+</head>
+<body>
+   
+    
+        <form class = "headd">
+            <p class="bf">
+                Barangay Form
+            </p>
+
+        </form>
+<form>
+    </div>
+        <div class = "info">
+            <div class="laman">
+                <label for="txtName">First Name</label>
+                    <input type="text" id="txtName" name="name"  placeholder="Enter First Name"
+                        required pattern="[A-Za-z]"
+                        title="Invalid!!
+                        Please type a Letters Only ( Maria will also valid)">     
+            </div>
+            <div class="laman">
+                <label for="txtName">Middle name</label>
+                <input type="text" id="txtName" name="name"  placeholder="Enter Middle Name"
+                required pattern="[A-Za-z]{1,24}"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)"> 
+            </div>
+            <div class="laman">
+                <label for="txtName">Last name</label>
+                <input type="text" id="txtName" name="name"   placeholder="Enter Last Name"
+                required pattern="[A-Za-z]{1,24}"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)"> 
+            </div>
+            <div class="laman">
+                <label for="txtName">Suffix</label>
+                <input type="text" id="txtName" name="name" placeholder="Enter Suffix"
+                required pattern="[A-Za-z]{1,24}"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)"> 
+            </div>
+            <div class="laman">
+                <label for="gender">Gender</label>
+                <select id="gender" name="nation" required>
+                    <option value="" selected>SELECT</option>
+                    <option value="M">MALE</option>
+                    <option value="F">FEMALE</option>
+                    
+                  </select>
+            </div>
+            <div class="laman">
+                <label for="nationality">Nationality</label>
+                <select id="nationality" name="nation" required>
+                    <option value="" selected>SELECT</option>
+                    <option value="AA">FILIPINO</option>
+                    <option value="BB">AMERICAN</option>
+                    <option value="CC">FILAM</option>
+                    <option value="CC">OTHER NATIONALITY</option>
+                    
+                  </select>
+            </div>
+            <div class="laman">
+                <label for="status">Marital Status</label>
+                <select id="status" name="mstatus" required>
+                    <option value="" selected>SELECT</option>
+                    <option value="AA">SINGLE</option>
+                    <option value="BB">MERRIAGE</option>
+                    <option value="CC">ENGAGED</option>
+                    <option value="CC">SEPERATED</option>
+                    
+                  </select>
+            </div>
+            <div class="laman">
+                <label for="bloddtype">Blood Type</label>
+                <select id="Btype" name="btype" required>
+                    <option value="" selected>SELECT</option>
+                    <option value="AA">A+</option>
+                    <option value="BB">A-</option>
+                    <option value="CC">B+</option>
+                    <option value="CC">B-</option>
+                    <option value="CC">O+</option>
+                    <option value="CC">O-</option>
+                    <option value="CC">AB+</option>
+                    <option value="CC">AB-</option>
+                    
+                  </select>
+            </div>
+            <div class="laman">
+                <label for="dateBirthday">Birthday<span class="required">*</span></label>
+                <input type="date" id="dateBirthday" name="birthday" required>
+            </div>
+            <div class="laman">
+                <label for="dateBirthday">Age<span class="required"></span></label>
+                <input type="number" id="age" name="age" placeholder="Enter Your Age"
+                required pattern="[0-50]{1,24}"
+                title="Invalid!!
+                Please type a Letters Only (This type of format: Jose Jamal Jabil will also valid)">
+            </div>
+            <div class="laman">
+
+                <label for="txtName">BirthPLace</label>
+                <input type="text" id="txtName" name="name"  required autofocusautofocus placeholder="BirthPLace"
+                required pattern="[A-Za-z]{1,24}"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)">     
+            
+            </div>
+            <div class="laman">
+                <label for="heightt">Height(ft)<span class="required"></span></label>
+                <input type="text" id="ft" name="heightt" required>
+            </div>
+            <div class="lamanH">
+                <label for="weightt">Weight(kg)<span class="required"></span></label>
+                <input type="text" id="kg" name="weightt" required>
+            </div>
+            <div class="laman">
+                <label for="religion">Religion</label>
+                <input type="text" id="religion" name="name" placeholder="Religion"
+                required pattern="[A-Za-z]"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)">     
+            </div>
+            <div class="laman">
+                <label for="email">Email</label>
+                <input type="text" id="email" name="name" placeholder="EMAIL"
+                required pattern="[A-Za-z]"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)">     
+            </div>
+            <div class="laman">
+                <label for="number">Contact Number</label>
+                <input type="text" id="number" name="name" placeholder="ex: 09456785433"
+                required pattern="[A-Za-z]{1,11}"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)">     
+            </div>
+            <div class="laman">
+                <label for="Rvoters">Registered Voters</label>
+                <select id="RV" name="Rvoters" required>
+                    <option value="" selected>SELECT</option>
+                    <option value="AA">A+</option>
+                    <option value="BB">A-</option>
+                    <option value="CC">B+</option>
+                    <option value="CC">B-</option>
+                    <option value="CC">O+</option>
+                    <option value="CC">O-</option>
+                    <option value="CC">AB+</option>
+                    <option value="CC">AB-</option>
+                    
+                  </select>
+            </div>
+            <div class="laman">
+                <label for="Rvoters">Disability</label>
+                <select id="dis" name="Rvoters" required>
+                    <option value="" selected>--SELECT HERE--</option>
+                    <option value="AA">A+</option>
+                    <option value="BB">A-</option>
+                    <option value="CC">B+</option>
+                    <option value="CC">B-</option>
+                    <option value="CC">O+</option>
+                    <option value="CC">O-</option>
+                    <option value="CC">AB+</option>
+                    <option value="CC">AB-</option>
+                    
+                  </select>
+            </div>
+            <div class="laman">
+                <label for="oc">Occupation</label>
+                <input type="text" id="oc" name="name" placeholder="e.g Staff office"
+                required pattern="[A-Za-z]"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)">     
+            </div>
+            <div class="laman">
+                <label for="ai">Annual Income:</label>
+                <input type="text" id="ai" name="name" placeholder=""
+                required pattern="[A-Za-z]"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)">     
+            </div>
+            <div class="laman">
+                <label for="hm">House Number</label>
+                <input type="text" id="hm" name="name" placeholder="House/bloc/lot.no"
+                required pattern="[A-Za-z]{1,24}"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)">     
+            </div>
+            <div class="laman">
+                <label for="st">Street</label>
+                <input type="text" id="st" name="name" placeholder="street"
+                required pattern="[A-Za-z]{1,24}"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)">     
+            </div>
+            <div class="laman">
+                <label for="br">Street</label>
+                <input type="text" id="br" name="name" placeholder="Barangay"
+                required pattern="[A-Za-z]{1,24}"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)">     
+            </div>
+            
+
+
+
+            <div class="laman">
+                <label for="muni">Municipality</label>
+            <input type="text" id="muni" name="name" placeholder="e.g Apalit"
+                required pattern="[A-Za-z]"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)">     
+            </div>
+            <div class="laman">
+                <label for="prov">Province</label>
+                <input type="text" id="prov" name="name" placeholder="e.g Pampanga"
+                required pattern="[A-Za-z]"
+                title="Invalid!!
+                Please type a Letters Only ( Maria will also valid)">     
+            </div>
+            <div class="laman">
+                <label for="hea">Highest Educational Attainment:</label>
+                <select id="hea" name="Rvoters" required>
+                    <option value="" selected>--SELECT HERE--</option>
+                    <option value="AA">A+</option>
+                    <option value="BB">A-</option>
+                    <option value="CC">B+</option>
+                    <option value="CC">B-</option>
+                    <option value="CC">O+</option>
+                    <option value="CC">O-</option>
+                    <option value="CC">AB+</option>
+                    <option value="CC">AB-</option>
+                    
+                  </select>
+            </div>
+            
+            <div class="buton">
+                
+                <button class="btn">SUBMIT</button>
+            </div>
+
+            
+            
+            
+
+           
+            
+    </div>
+        
+
+
+
+</form>
+    
+</body>
+</html>
